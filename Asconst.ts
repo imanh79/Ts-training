@@ -13,3 +13,6 @@ export const userinterface: object = {
 
 // userinterface.age = 29; // error as const
 console.log(userinterface);
+
+const number = [1, 5, 8] as const;
+console.log(number[2]);
